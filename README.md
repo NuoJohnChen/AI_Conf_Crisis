@@ -12,6 +12,7 @@ python plot_2d_effective_faculties_by_parent_2015_2024.py
 python plot_2d_contribution_per_person_2015_2024.py
 
 # Figure 4
+python create_static_city_map.py
 python plot_3d_perperson.py --plot_type together --metric contribution_per_person
 
 # Figure 5
