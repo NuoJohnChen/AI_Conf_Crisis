@@ -32,3 +32,6 @@ python plot_nips_growth.py
 # Figure 8
 python plot_nips_growth.py
 (plot_offline_attendance_prediction())
+
+# AirRoute Visualization
+https://github.com/NuoJohnChen/AirRouteMap
