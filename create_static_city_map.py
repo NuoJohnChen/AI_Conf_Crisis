@@ -231,14 +231,13 @@ for city, passengers in city_stats.items():
 
 print(f"\nMapped {len(cities_to_plot)} city coordinates")
 
-# ----------------- 新增：加载高分辨率世界底图 -----------------
-# 使用你提供的shapefile路径
+
 shp_path = 'ne_10m_admin_0_countries.shp'
 world = gpd.read_file(shp_path)
 
-# ----------------- 画图 -----------------
+
 fig, ax = plt.subplots(figsize=(20, 12))
-# 白色底图
+
 world.plot(ax=ax, color='white', edgecolor='#CCCCCC', linewidth=0.5, zorder=1)
 
 # Create a custom colormap from blue to white
@@ -311,7 +310,7 @@ for city, passengers in city_stats.items():
     city_coord = city_coordinates[city]
     city_latlon = (city_coord[1], city_coord[0])
     distance_km = geodesic(city_latlon, (vancouver_coord[1], vancouver_coord[0])).km
-    co2 = passengers * distance_km * emission_factor * 2  # 乘以2，考虑往返
+    co2 = passengers * distance_km * emission_factor * 2 
     total_co2 += co2
 
 # Vancouver 2021 annual GHG emissions: 2,500,000 tCO2e (City of Vancouver official report)
