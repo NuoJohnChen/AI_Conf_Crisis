@@ -1,3 +1,5 @@
+[nextaiconf.com](https://nextaiconf.com) is the demo of CFC curation: [Topic↔Papers](https://github.com/NuoJohnChen/topic-x-papers).
+
 # Requirements
 
 pip install requirements.txt
