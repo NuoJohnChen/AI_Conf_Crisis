@@ -1,4 +1,4 @@
-[nextaiconf.com](https://nextaiconf.com) is the demo of CFC curation: [Topic↔Papers](https://github.com/NuoJohnChen/topic-x-papers).
+[nextaiconf.com](https://nextaiconf.com) is the demo of CFC curation: [Topic↔Papers](https://github.com/NuoJohnChen/context-x-papers).
 
 # Requirements
 
